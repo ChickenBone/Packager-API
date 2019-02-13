@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/ChickenBone/Packager-API/issues"
   },
-  "homepage": "https://github.com/ChickenBone/Packager-API#readme"
+  "homepage": "https://github.com/ChickenBone/Packager-API#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11"
+  }
 }

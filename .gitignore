@@ -66,6 +66,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# SQLite DB Files
+*.db
+
 # vuepress build output
 .vuepress/dist
 

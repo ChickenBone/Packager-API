@@ -2,5 +2,7 @@
     "dev": "SparkDev",
     "tweak": "Snowboard",
     "version": "1.0",
-    "filename": "SnowboardV1.zip"
+    "filename": "SnowboardV1.zip",
+    "description": "This is a detailed description",
+    "compatable": "iOS 12"
   }]

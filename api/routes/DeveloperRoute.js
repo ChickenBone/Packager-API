@@ -12,6 +12,9 @@ module.exports = function (app) {
     res.download(filePath, fileName); 
     return;   
   });
+  app.get('/',function(req,res) {
+    res.json('Welcome to the packager API! We are open source on GitHub!');
+  });
 }
 
 

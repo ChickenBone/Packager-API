@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.4.12"
+    "mongoose": "^5.4.12",
+    "sqlite3": "^4.0.6"
   }
 }

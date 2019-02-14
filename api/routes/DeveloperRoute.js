@@ -15,14 +15,14 @@ module.exports = function (app) {
   app.get('/',function(req,res) {
     res.json('Welcome to the packager API! We are open source on GitHub!');
   });
-  app.route('/dev/:devList/:apiToken')
-  .post(Developer.update_devlist)
+  // app.route('/dev/:devList/:apiToken')
+  // .post(Developer.update_devlist)
 
-  app.route('/dev/:devName/:apiToken')
-  .post(Developer.update_dev)
+  // app.route('/dev/:devName/:apiToken')
+  // .post(Developer.update_dev)
   
-  app.route('/dev/:devName/:tweakName/:apiToken')
-  .post(Developer.update_tweak)
+  // app.route('/dev/:devName/:tweakName/:apiToken')
+  // .post(Developer.update_tweak)
 
 }
 

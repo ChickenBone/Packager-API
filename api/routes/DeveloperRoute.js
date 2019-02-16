@@ -8,7 +8,7 @@ module.exports = function (app) {
     .get(Developer.list_tweak)
   app.get('/dev/:dev/:tweak/:version/:filename', function (req, res) {
     var filePath = "./api/public/developers/"+req.params.dev+"/"+req.params.tweak+"/"+req.params.version+"/"+req.params.filename;
-    var fileName = "1.zip"; 
+    var fileName = req.params.fileName; 
     res.download(filePath, fileName); 
     return;   
   });

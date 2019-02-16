@@ -5,6 +5,7 @@ const fs = require('fs');
   app = express(),
   port = process.env.PORT || 8443,
   bodyParser = require('body-parser');
+  app.use('/download', express.static(__dirname+'/api/public')); 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var routes = require('./api/routes/DeveloperRoute.js'); 
